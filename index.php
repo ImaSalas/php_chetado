@@ -30,7 +30,7 @@
                 <td>ESTADO</td>
             </tr>
             <?php
-                $cnx = mysqli_connect("localhost", "root", "root123456", "dbprueba");
+                $cnx = mysqli_connect("20.25.51.254", "server", "123456789", "newAzure");
                 $sql = "SELECT id, nom, ape, n1, n2, n3, ROUND((n1+n2+n3)/3, 1) as p
                         FROM talumno
                         
